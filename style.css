@@ -1,14 +1,35 @@
 body {
-  padding-top: 50px;  /* Move body of page below navbar. */
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
 }
 
-.page-content {
-  padding: 10px;
+.banner {
+  background-image: url("banner.jpeg");
+  height: 200px;
+  background-size: cover;
+}
+
+.navbar-inverse {
+  background-color: #3087F9;
+  border-color: #3087F9;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFDE4E;
+}
+
+.well {
+  background-color: #3087F9;
+  color: white;
   text-align: center;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+.well>a {
+  color:white;
+}
+
+h2 {
+  margin-top: 0;
+  color: #FFDE4E;
+  font-size: 18px;
 }
